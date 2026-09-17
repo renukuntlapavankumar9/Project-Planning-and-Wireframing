@@ -28,8 +28,8 @@ def build_pdf():
     story = []
     
     # Title Header
-    story.append(Paragraph("FitPulse — Week 1 Task Submission", title_style))
-    story.append(Paragraph("Project Planning, Mobile App Architecture & UX Wireframes | Internship Deliverable", subtitle_style))
+    story.append(Paragraph("FitPulse", title_style))
+    story.append(Paragraph("Project Planning, Mobile App Architecture & UX Wireframes", subtitle_style))
     story.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#CBD5E1"), spaceAfter=15))
     
     # helper function to read markdown text cleanly
